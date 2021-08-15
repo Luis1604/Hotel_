@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Inicio</title>
+		
+	</head>
+		<body>
+			<h1>Pagina de Inicio</h1>
+			<form method="post" action=""> {% csrf_token %}
+				{{form.as_p}}
+				<input type="submit" value="Aceptar">
+			</form>
+		<h1>Despues del formulario</h1>
+		</body>
+</html>
